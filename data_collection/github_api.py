@@ -2,7 +2,7 @@ import requests
 
 
 # Github Personal Access Token
-TOKEN = "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"
+TOKEN = "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"
 
 # Authorize the token for further processing
 headers = { "Authorization": f"token {TOKEN}" }
