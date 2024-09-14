@@ -26,6 +26,7 @@ numpy==2.1.1
 packaging==24.1
 pandas==2.2.2
 pillow==10.4.0
+plotly==5.24.1
 protobuf==5.28.1
 pyarrow==17.0.0
 pycparser==2.22
