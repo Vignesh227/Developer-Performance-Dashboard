@@ -63,14 +63,14 @@ pip install -r requirements.txt
 ```
 
 ## 5. Add Your GitHub API Key
-- Create a .env file in the root of your project folder (if not already present).
+- Create a `.env` file in the root of your project folder (if not already present).
 - Add your GitHub Personal Access Token (PAT) to the .env file in the following format:
 ```
 GITHUB_API_KEY = your_github_api_key_here
 ```
 
 ## 6. Update .gitignore
-Ensure .env is listed in your .gitignore file to avoid accidentally uploading sensitive information:
+Ensure .env is listed in your `.gitignore` file to avoid accidentally uploading sensitive information:
 ```
 .env
 ```
