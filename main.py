@@ -19,7 +19,7 @@ alt.themes.enable("dark")
 
 # Navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("How do you want to compare?", ["Single User/Repo", "Multiple Users"])
+page = st.sidebar.radio("What info do you want?", ["Single User/Repo", "Multiple Users"])
 
 
 if page == "Single User/Repo":
@@ -61,7 +61,7 @@ if page == "Single User/Repo":
 
             # Fetch repo info using API
             response = get_repo_data(owner, repo)
-
+            # st.write(response)
             if response.status_code == 200:# Successfully fetched
 
                 # Convert from response to JSON format
